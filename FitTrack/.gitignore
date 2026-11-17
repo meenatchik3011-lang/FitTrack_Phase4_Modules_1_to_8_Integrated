@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Node
+node_modules/
+dist/
+# Secrets
+.env
+# Local database contains personal data; do not push it to public GitHub
+backend/fittrack.db
+backend/*.db-journal
